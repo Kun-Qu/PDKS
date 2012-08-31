@@ -13,7 +13,7 @@ Ref:
 lattice-Boltzmann method simulation of inviscid compressible flows at
 high Mach number”, Physical Review E, 2007, Vol 75 (3), 036706, Kun Qu,
 Chang Shu and Yong Tian Chew
-    http://serve.me.nus.edu.sg/shuchang/Publicati*****/Latest%20papers%20for%20web/Qu_Shu_Chew%20(PRE)%202007.pdf
+    http://serve.me.nus.edu.sg/shuchang/Publications/Latest%20papers%20for%20web/Qu_Shu_Chew%20(PRE)%202007.pdf
 
 
 
