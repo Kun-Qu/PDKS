@@ -1,0 +1,79 @@
+bc1
+{
+bctype   201
+dir      1       # i 0/j 1
+index    70    # 1 or MAX
+start_i  2
+end_i    281
+start_j  0
+end_j    0
+mis      0
+brho     1.0E0
+bU       0.5E0 
+bV       0.0E0
+be       1.785714E0
+}
+
+bc2
+{
+bctype   204
+dir      0       # i 0/j 1
+index    1    # 1 or MAX
+start_i  0
+end_i    0
+start_j  2
+end_j    70
+mis      0
+brho     1.0E0
+bU       0.5E0
+bV       0.0E0
+be       0.7142856E0
+}
+
+bc3
+{
+bctype   204
+dir      0       # i 0/j 1
+index    281    # 1 or MAX
+start_i  0
+end_i    0
+start_j  2
+end_j    70
+mis      0
+brho     1.0E0
+bU       0.5E0
+bV       0.0E0
+be       0.7142856E0
+}
+
+bc4
+{
+bctype   302
+dir      1       # i 0/j 1
+index    1    # 1 or MAX
+start_i  2
+end_i    61
+start_j  281
+end_j    222
+mis      0
+brho     0.0E0
+bU       0.0E0
+bV       0.0E0
+be       0.0E0
+}
+
+bc5
+{
+bctype   102
+dir      1       # i 0/j 1
+index    1    # 1 or MAX
+start_i  62
+end_i    221
+start_j  0
+end_j    0
+mis      -1          # -1 adiabadic; -2 isothermal; -3 isogradient
+brho     0.0E0
+bU       0.0E0
+bV       0.0E0
+be       1.8749997E0   # only for isothermall wall
+}

@@ -1,0 +1,50 @@
+case_name  NACA_R5000_M050_A0
+grid_name  naca0012_B.grd
+
+ref_rho 1.0
+ref_e   2.5
+ref_L   1.0
+Re_Rho  1.0
+Re_U    0.5
+Re_L    1.0
+
+
+lbm_par
+{
+# inviscid 0; laminar 1
+vis_mode 1
+
+Gamma  1.4
+
+# tau for inviscid flows; Re for laminar flows
+Re_tau     5000
+
+# only available for viscous flows
+Pr     1
+}
+
+nbc  5
+bc_file naca.bc
+
+init_condition
+{
+# 0 for initializing macrostate equaly; 
+# 1 for initializing from a file
+# 2 for restart microstate from a checkpoint file
+init_mode   2
+init_file   NACA_R5000_M050_A0_1000000.chk
+ 
+irho  1.0E0
+iu    0.5E0
+iv    0.0E0
+ie    1.785714E0
+}
+
+time_control
+{
+time_step  2.0E-5
+max_step   1201001
+print_step 200
+save_step  20000
+check_step 50000
+}
