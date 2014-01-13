@@ -5,7 +5,7 @@ PDKS is a simple research code, it surport
 1 2D Plot3D grid
 2 several LB models for compressible flows by QU
 3 MPI parallel computing by splitting the domain along I direction
-4 input file format based on http://www.math.tu-cottbus.de/~berti/gral中的control-device
+4 input file format based on http://www.math.tu-cottbus.de/~berti/gral 中的control-device
 5 tecplot output
 
 Ref:
